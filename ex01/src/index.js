@@ -1,5 +1,4 @@
 // Create an array here
-
 var myArr = [2, 4, 0, 8, 10];
 myArr[0];
 myArr[1];
@@ -18,5 +17,5 @@ function myArrayFunction(arr) {
     // Only change code above this line
 }
 
-console.log(myArrayFunction("myItems")); // Change this line
+console.log(myArrayFunction(myArr)); // Change this line
 module.exports = myArrayFunction;
